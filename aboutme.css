@@ -1,0 +1,98 @@
+
+
+body {
+
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+
+}
+
+.menu {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #5ebd81;
+    margin-right: 5px;
+}
+
+nav li {
+    float: left;
+}
+
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+    text-decoration:none;
+}
+
+
+.intro{
+    float: left;
+    clear: left;
+}
+
+
+.description{
+    margin-top: 55px;
+	margin-left: 100px;
+    margin-right: 100px;
+    line-height: 20px;
+}
+
+ul li h2 {
+    color: #cc192c;
+}
+
+.insidelist{
+    margin-left: 400px;
+    font-size: 0.75em;
+}
+
+@media screen and (max-width: 900px){
+
+     nav ul{
+            margin-top: 70px;
+            position: static;
+            float: none;
+     
+       }
+
+       nav ul li{
+        display: block;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 0px;
+        margin-left: 0px;
+        float:none;
+       }
+
+        nav ul li a{
+        font-size: 18px;
+        text-align: left;
+       }
+
+       img {
+        display:none;
+       }  
+
+       h1{   
+        font-size:23px}
+
+       h2{
+        font-size: 18px;
+       }
+
+     .insidelist{
+       margin-left: 50px;
+       font-size: 0.75em;
+}
+}
