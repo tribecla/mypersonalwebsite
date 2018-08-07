@@ -31,7 +31,6 @@ nav li a:hover:not(.active) {
     background-color: #111;
     text-decoration:none;
 }
-
 .container{
     margin: 100px 100px;
 }

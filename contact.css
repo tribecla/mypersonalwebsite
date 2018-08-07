@@ -1,0 +1,33 @@
+body {
+
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+
+}
+
+.menu {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #5ebd81;
+    margin-right: 5px;
+}
+
+nav li {
+    float: left;
+}
+
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+    text-decoration:none;
+}
