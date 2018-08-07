@@ -33,9 +33,18 @@ nav li a:hover:not(.active) {
     text-decoration:none;
 }
 
+
+img{
+     float: left;
+     clear: left;
+     border-radius: 50%;
+     margin: 100px 100px 100px 10px;
+
+
+}
+
 .container{
     margin: 50px 100px;
-    position: absolute;
 }
 
 
