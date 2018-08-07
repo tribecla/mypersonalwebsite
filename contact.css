@@ -3,7 +3,8 @@ body {
     font-family: 'Libre Barcode 39 Text', cursive;
     font-family: 'Montserrat', sans-serif;
     margin-left: 10px;
-
+    background-color: #5ebd81;
+    font-size: 18px;
 }
 
 .menu {
@@ -31,3 +32,84 @@ nav li a:hover:not(.active) {
     background-color: #111;
     text-decoration:none;
 }
+
+.container{
+    margin: 50px 100px;
+    position: absolute;
+}
+
+
+p{
+   font-size:18px;
+   font-weight: bold;
+}
+
+
+input {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    width: 30%;
+    border-radius: 5%;
+    border:2px dotted black;
+    height: 50px;
+    padding: 12px 12px;   
+}
+
+
+textarea {
+    width: 40%;
+    font-size: 18px;
+    border-radius: 5%;
+    border: 2px dotted black;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.fab {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
+
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+
