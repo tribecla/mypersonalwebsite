@@ -34,17 +34,29 @@ nav li a:hover:not(.active) {
 }
 
 
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 img{
      float: left;
      clear: left;
      border-radius: 50%;
-     margin: 100px 100px 100px 10px;
-
-
-}
-
-.container{
-    margin: 50px 100px;
+     border:2px dotted white;
+     margin: 100px 100px;
 }
 
 
@@ -53,6 +65,9 @@ p{
    font-weight: bold;
 }
 
+p#contact{
+    text-align: center;
+}
 
 input {
     font-family: 'Libre Barcode 39 Text', cursive;
@@ -87,10 +102,15 @@ input[type=submit] {
 }
 
 
+.socialmedia {
+   margin-left: 200px;
+}
+
 .fab {
-    padding: 10px;
-    font-size: 30px;
-    width: 30px;
+    padding: 15px;
+    font-size: 23px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -118,7 +138,51 @@ input[type=submit] {
 
 .fa-soundcloud {
   background: #ff5500;
-  color: white;
+  color: white; 
+  padding: 12px;
 }
 
 
+
+@media screen and (max-width: 900px){
+  .column {
+        width: 100%;
+      }
+
+
+       nav ul li{
+        display: block;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 0px;
+        margin-left: 0px;
+        float:none;
+       }
+
+        nav ul li a{
+        font-size: 18px;
+        text-align: left;
+       }
+
+       img {
+        display:none;
+       }  
+
+       h1{   
+        font-size:23px}
+
+    .socialmedia {
+     margin-left: 120px;
+     }
+
+    .fab {
+       padding: 5px;
+       font-size: 18px;
+       width: 30px;
+       height: 30px;
+       text-align: center;
+       text-decoration: none;
+       border-radius: 50%;
+     }
+
+}

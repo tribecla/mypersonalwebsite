@@ -5,6 +5,8 @@ body {
     font-family: 'Libre Barcode 39 Text', cursive;
     font-family: 'Montserrat', sans-serif;
     margin-left: 10px;
+    background-color: #5ebd81;
+
 
 }
 
@@ -40,12 +42,8 @@ nav li a:hover:not(.active) {
     clear: left;
 }
 
-
-.description{
-    margin-top: 55px;
-	  margin-left: 100px;
-    margin-right: 100px;
-    line-height: 20px;
+img {
+  border-radius: 50%;
 }
 
 ul li h2 {
@@ -53,18 +51,32 @@ ul li h2 {
 }
 
 .insidelist{
-    margin-left: 400px;
     font-size: 0.75em;
 }
 
-@media screen and (max-width: 900px){
 
-     nav ul{
-            margin-top: 70px;
-            position: static;
-            float: none;
-     
-       }
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  
+@media screen and (max-width: 900px){
+  .column {
+        width: 100%;
+      }
+
 
        nav ul li{
         display: block;
@@ -90,9 +102,4 @@ ul li h2 {
        h2{
         font-size: 18px;
        }
-
-     .insidelist{
-       margin-left: 50px;
-       font-size: 0.75em;
-}
 }
