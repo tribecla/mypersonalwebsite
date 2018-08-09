@@ -42,8 +42,13 @@ nav li a:hover:not(.active) {
     clear: left;
 }
 
-img {
-  border-radius: 50%;
+
+img{
+     float: left;
+     clear: left;
+     border-radius: 50%;
+     border:2px dotted white;
+     margin: 100px 100px;
 }
 
 ul li h2 {
